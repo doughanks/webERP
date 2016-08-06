@@ -1,0 +1,7 @@
+{
+    "name": "doughanks/webERP",
+    "description": "webERP fork for PHP Modernization academia",
+    "require-dev": {
+        "phing/phing": "@stable"
+    }
+}

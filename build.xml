@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="webERP" default="lint">
+
+    <target name="lint">
+        <phplint>
+            <fileset dir=".">
+                <include name="**/*.php"/>
+                <include name="**/*.inc"/>
+            </fileset>
+        </phplint>
+    </target>
+
+</project>
